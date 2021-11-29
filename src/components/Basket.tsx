@@ -1,8 +1,8 @@
 import React from "react";
 import { useSelector } from "react-redux";
 
-import { ProductItem } from "../global";
-import { store, remove } from "./store";
+import { ProductItem } from "../../global";
+import { store, remove } from "../store";
 
 const Basket = () => {
   const products = useSelector((state: ProductItem[]) => state);

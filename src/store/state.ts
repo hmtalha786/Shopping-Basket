@@ -6,7 +6,7 @@ const INITIAL_STATE: ProductItem[] = [
     title: "Pointers",
     description: "Reuseable Pointer Notes",
     imageUrl:
-      "https://image.made-in-china.com/202f0j00AhaUgfdRgzqO/Arrow-Flag-Tabs-Pet-Sticky-Notes-for-Page.jpg",
+      "https://odditymall.com/includes/content/offensive-office-pens-thumb.jpg",
     price: 199,
   },
   {
@@ -27,26 +27,26 @@ const INITIAL_STATE: ProductItem[] = [
   },
   {
     id: "4",
-    title: "Roll out",
+    title: "Trash Compactor",
     description: "Roll the task out",
     imageUrl:
-      "https://odditymall.com/includes/content/sticky-roller-notes-0.jpg",
+      "https://odditymall.com/includes/content/this-garbage-can-has-a-built-in-manual-trash-compactor-thumb.jpg",
     price: 799,
   },
   {
     id: "5",
-    title: "Sweet Kitten",
+    title: "Towel Rack",
     description: "The only product worth buying",
     imageUrl:
-      "https://www.deliworld.com/uploads/products/100120009%23EA55202%20ASST/1%23EA55202%20PNK%20%20M-275x275.png",
+      "https://odditymall.com/includes/content/farmhouse-style-towel-rack-thumb.jpg",
     price: 799,
   },
   {
     id: "6",
-    title: "Mobile Notes",
+    title: "VHS Sneakers",
     description: "Task Scheduler",
     imageUrl:
-      "https://i.pinimg.com/236x/6d/b1/6a/6db16a695deda06adaa30f56b482fa9b--unique-office-supplies-sticky-notes.jpg",
+      "https://odditymall.com/includes/content/vhs-tape-sneaker-shoes-thumb.jpg",
     price: 799,
   },
 ];
