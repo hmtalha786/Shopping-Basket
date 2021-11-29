@@ -1,18 +1,14 @@
 import React from "react";
-import { Product } from "./components/Products";
-import { Basket } from "./components/Basket";
 import "./App.css";
 import Header from "./components/Header";
+import Product from "./components/Products";
 
 function App() {
   return (
-    <>
-    <Header/>
     <div className="App">
+      <Header />
       <Product />
-      <Basket />
     </div>
-    </>
   );
 }
 

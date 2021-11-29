@@ -11,7 +11,6 @@ const basketSlice = createSlice({
         if (item.id !== action.payload.id) {
           return item;
         }
-
         return {
           ...item,
           added: true,
@@ -23,7 +22,6 @@ const basketSlice = createSlice({
         if (item.id !== action.payload.id) {
           return item;
         }
-
         return {
           ...item,
           added: false,

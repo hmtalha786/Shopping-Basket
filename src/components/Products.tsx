@@ -2,13 +2,17 @@ import React from "react";
 import { useSelector } from "react-redux";
 import { ProductItem } from "../../global";
 import { store, add } from "../store";
-import "./Product.css";
 
 const Product = () => {
   const products = useSelector((state: ProductItem[]) => state);
   console.log(products);
   return (
     <div>
+      <div className=" mt-4">
+        {" "}
+        You have {products.filter((product) => product.added).length} items in
+        your basket
+      </div>
       <div
         style={{
           display: "flex",
@@ -26,8 +30,9 @@ const Product = () => {
               background: "#f5f5f5",
               margin: "10px",
               display: "flex",
+              textAlign: "center",
               flexDirection: "column",
-              border: " 3px solid red",
+              border: " 5px solid grey",
               width: "300px",
               color: "black",
             }}
@@ -67,4 +72,4 @@ const Product = () => {
   );
 };
 
-export { Product };
+export default Product;
