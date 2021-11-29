@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { ProductItem } from "../../global";
+import { ProductItem } from "../global_interface";
 import { store, remove } from "../store";
 
 const Basket = () => {
@@ -11,7 +11,7 @@ const Basket = () => {
       <div
         style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
       >
-        {" "}
+        
         {products
           .filter((product) => product.added)
           .map((product: ProductItem) => {
@@ -41,15 +41,15 @@ const Basket = () => {
 
                   <p>${(product.price / 100).toFixed(2)}</p>
 
-                  {/* <p>{` ${product.description}`}</p> */}
                   <button
+                    className="px-3"
                     style={{
                       backgroundColor: "white",
                       color: "white",
                       border: "none",
                       cursor: "pointer",
                       height: "30px",
-                      background: "grey",
+                      background: "red",
                     }}
                     onClick={() => store.dispatch(remove({ id: product.id }))}
                   >

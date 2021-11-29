@@ -22,5 +22,5 @@
   },
   "include": [
     "src"
-  ]
+, "src/global_interface.d.ts"  ]
 }

@@ -1,4 +1,4 @@
-import { ProductItem } from "../../global";
+import { ProductItem } from "../global_interface";
 
 const INITIAL_STATE: ProductItem[] = [
   {

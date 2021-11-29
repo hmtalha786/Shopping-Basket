@@ -18,6 +18,7 @@ const basketSlice = createSlice({
       });
     },
     remove: (state, action) => {
+      // remove item to basket using `state` and `action` props
       return state.map((item) => {
         if (item.id !== action.payload.id) {
           return item;
@@ -31,8 +32,8 @@ const basketSlice = createSlice({
   },
 });
 
-const store = configureStore({ reducer: basketSlice.reducer });
+export const store = configureStore({ reducer: basketSlice.reducer });
 
 export const { add, remove } = basketSlice.actions;
 
-export { basketSlice, store };
+// export { basketSlice, store };
